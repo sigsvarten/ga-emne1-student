@@ -12,9 +12,10 @@ print (int(f'{number}') + int(f'{second_number}'))
 third_number = input ('What is the this number? ')
 fourth_number = input('What is the this number? ')
 
-print (int(f'{third_number}') + int(f'{fourth_number}'))
+print (float(f'{third_number}') + float(f'{fourth_number}'))
 
-#third pair
+#third pair9
+
 fifth_number = input ('What is the number here? ')
 sixth_number = input('This number is? ')
 
@@ -22,4 +23,4 @@ print (int(f'{fifth_number}') + int(f'{sixth_number}'))
 
 #regner ut alle tall
 print (int(f'{fifth_number}') + int(f'{sixth_number}') + int(f'{number}') + int(f'{second_number}') +
-       int(f'{third_number}') + int(f'{fourth_number}'))
+       float(f'{third_number}') + float(f'{fourth_number}'))
