@@ -7,4 +7,4 @@ quantity = int(input('Quantity: '))
 total = unit_price * quantity
 
 print( f'{product_name}: {total}')
-#print( f'{product_name}: {total}.2f')
+print( f'{product_name}: {total:.2f}')
