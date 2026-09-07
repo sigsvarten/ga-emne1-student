@@ -2,8 +2,7 @@
 
 square_number = int(input('The number is: '))
 
-square = 50
-while square_number ** 2 <= square:
-
-    square += 1
-    print(square_number)
+for i in range(1, square_number +1):
+    sum_round = i * i
+    if sum_round < square_number:
+        print(f'The sqaure number of {sum_round} is less than {square_number}')
