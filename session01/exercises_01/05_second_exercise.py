@@ -3,24 +3,28 @@
 #5. convert input to numbers and adders
 
 #first pair
-number = input ('What is the first number? ')
-second_number = input('What is the second number? ')
+number = float(input ('What is the first number? '))
+second_number = float (input ('What is the second number? '))
+sum1 = float(number + second_number)
 
-print (int(f'{number}') + int(f'{second_number}'))
+print(f'{sum1}')
 
 #second_pair
-third_number = input ('What is the this number? ')
-fourth_number = input('What is the this number? ')
+third_number = float(input ('What is the this number? '))
+fourth_number = float(input('What is the this number? '))
+sum2 = float(third_number + fourth_number)
 
-print (float(f'{third_number}') + float(f'{fourth_number}'))
+print (f'{sum2}')
 
 #third pair9
 
-fifth_number = input ('What is the number here? ')
-sixth_number = input('This number is? ')
+fifth_number = float(input ('What is the number here? '))
+sixth_number = float(input('This number is? '))
+sum3 = float(fifth_number + sixth_number)
 
-print (int(f'{fifth_number}') + int(f'{sixth_number}'))
+print (f'{sum3}')
+
+sum_total = float(sum1 + sum2 + sum3)
 
 #regner ut alle tall
-print (int(f'{fifth_number}') + int(f'{sixth_number}') + int(f'{number}') + int(f'{second_number}') +
-       float(f'{third_number}') + float(f'{fourth_number}'))
+print (f'{sum_total}')
