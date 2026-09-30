@@ -3,15 +3,13 @@
 number_limit = int(input('The limit number is: '))
 last:int = 0
 previous: int = 1
-next: int = 1
 
-if number_limit > 0:
+for i in range(number_limit):
+    print (last)
+    last,previous = previous, last + previous
+
+print()
+
+while last<= number_limit:
     print(last)
-if number_limit >= 1:
-    print(previous)
-
-    while next <= 1:
-        print (next)
-    last = previous
-    previous = next
-    next = last + previous
+    last, previous = previous, last + previous
