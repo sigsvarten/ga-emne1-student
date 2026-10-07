@@ -8,3 +8,4 @@ for p in prices:
 
 print()
 print(f'Total sum before discount: {sum(prices):.2f}')
+
